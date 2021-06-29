@@ -24,7 +24,7 @@ export default function Body() {
       </section>
 
       <section>
-        <h2>Personal Projects</h2>
+        <h2 style={aboutStyle}>Personal Projects</h2>
         <div style={projectStyle}>
           <p>
             Tech Blog - Full-stack web application with user authentication and

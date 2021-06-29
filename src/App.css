@@ -7,7 +7,6 @@ a {
   color: #61dafb;
 }
 
-#root {
-  display: flex;
-  justify-content: center;
+img {
+  margin: 20px;
 }
