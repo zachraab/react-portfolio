@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Nav() {
-  const linkStyle = { border: "1px black", padding: "5px" };
   return (
     <nav
       className="main-header-menu"
@@ -18,7 +17,7 @@ export default function Nav() {
             fontSize: "4rem",
           }}
         >
-          Zach Raab{" "}
+          Zach Raab{"  "}
           <span style={{ fontSize: "2rem" }}>Full-Stack Web Developer</span>
         </h1>
       </section>
@@ -28,14 +27,14 @@ export default function Nav() {
           fontSize: "2rem",
         }}
       >
-        <div style={linkStyle}>
+        {/* <div>
           <a href="https://www.linkedin.com/in/zachary-raab-61578248/">
             LinkedIn
           </a>
         </div>
-        <div style={linkStyle}>
+        <div>
           <a href="https://github.com/zachraab">GitHub</a>
-        </div>
+        </div> */}
       </section>
     </nav>
   );

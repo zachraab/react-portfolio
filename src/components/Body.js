@@ -1,10 +1,16 @@
 import React from "react";
 
 export default function Body() {
+  const aboutStyle = { margin: "20px" };
+  const projectStyle = { margin: "20px" };
   return (
     <main>
-      <section>
-        <h2>About</h2>
+      <section style={aboutStyle}>
+        <img
+          style={{ height: "50%", width: "50%", display: "block" }}
+          src="https://zachraab.github.io/my-portfolio/assets/images/photo-by-water.jpg"
+        ></img>
+        <h2>About Me</h2>
         <p>
           Full-stack web developer. Experienced entertainer, audio-engineer,
           musician, and composer. I prefer to work in a position that encourages
@@ -19,7 +25,7 @@ export default function Body() {
 
       <section>
         <h2>Personal Projects</h2>
-        <div className="personal-project">
+        <div style={projectStyle}>
           <p>
             Tech Blog - Full-stack web application with user authentication and
             CRUD operations.
@@ -32,7 +38,7 @@ export default function Body() {
             src="https://raw.githubusercontent.com/zachraab/tech-blog/main/assets/images/screenshot.png"
           ></img>
         </div>
-        <div className="personal-project">
+        <div style={projectStyle}>
           <p>
             The Daily Dive - Front-end web application utilizing REST API
             integration.
@@ -45,7 +51,7 @@ export default function Body() {
             src="https://raw.githubusercontent.com/Chequelito/theDailyDive/main/assets/images/Screenshot.png"
           ></img>
         </div>
-        <div className="personal-project">
+        <div style={projectStyle}>
           <p>
             Employee Generator - This is a back-end, command-line application
             that allows a manager to dynamically generate a styled webpage that
